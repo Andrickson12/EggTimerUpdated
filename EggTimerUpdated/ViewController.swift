@@ -23,7 +23,6 @@ class ViewController: UIViewController {
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
-    var commit = 1
     
     //Dictionary
     var dic = ["Soft": 3, "Medium": 4, "Hard": 7]
@@ -31,11 +30,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
         UIProperties()
-        
-        
+        //Sample
     }
     
     //Declare it outside to use it globally(this can be use inside "hardnessPressed" but will limit the scope just inside "hardnessPressed" aka only use the property inside "hardnessPressed")
