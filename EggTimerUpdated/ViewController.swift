@@ -23,7 +23,7 @@ class ViewController: UIViewController {
     var timer = Timer()
     var totalTime = 0
     var secondsPassed = 0
-
+    var commit = 1
     
     //Dictionary
     var dic = ["Soft": 3, "Medium": 4, "Hard": 7]
