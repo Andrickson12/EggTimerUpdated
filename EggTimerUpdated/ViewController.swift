@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         UIProperties()
-        //Sample
+        
     }
     
     //Declare it outside to use it globally(this can be use inside "hardnessPressed" but will limit the scope just inside "hardnessPressed" aka only use the property inside "hardnessPressed")
